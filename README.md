@@ -6,11 +6,11 @@ My first crawler writing in python, using Scrapy.
 + Autoupdating every 6 hours
 
 ## TODO
-- [ ] Basic product information, such as
-1. URL
-2. product title
-3. brand (If applicable)
-4. categories (If applicable)
+Basic product information, such as
+[x] URL
+[x] product title
+[ ] brand (If applicable)
+[ ] categories (If applicable)
 - [ ] Images (maximum quality) for each color of the product.
 - [ ] Availability for each color and size combination.
 - [ ] For new product, it can be updated every 6 hours.
