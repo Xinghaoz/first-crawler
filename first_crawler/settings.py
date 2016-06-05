@@ -15,6 +15,9 @@ SPIDER_MODULES = ['first_crawler.spiders']
 NEWSPIDER_MODULE = 'first_crawler.spiders'
 
 #DEPTH_LIMIT = 1 # Allow only 1 page deep
+ITEM_PIPELINES = {
+    'first_crawler.pipelines.FirstCrawlerPipeline': 300,
+}
 DOWNLOAD_DELAY = .5 #
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent

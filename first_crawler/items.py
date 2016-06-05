@@ -8,7 +8,11 @@
 import scrapy
 
 
-class FirstCrawlerItem(scrapy.Item):
+class FashionItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    url = scrapy.Field()
+    title = scrapy.Field()
+    brand = scrapy.Field()
+    categories = scrapy.Field()
+    images = scrapy.Field()
