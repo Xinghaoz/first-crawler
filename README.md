@@ -21,7 +21,9 @@ My first crawler for crawling the fashion items in "http://www.mogujie.com/" and
 `scrapy crawl first_crawler`
 
 You will then need to set the SPLASH_URL setting in your project’s settings.py:
+
 `SPLASH_URL = 'http://localhost:8050/'`
 
 Don’t forget, if you are using boot2docker on OS X, you will need to set this to the IP address of the boot2docker virtual machine, e.g.:
+
 `SPLASH_URL = 'http://192.168.99.100:8050/'`
