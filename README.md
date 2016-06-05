@@ -1,8 +1,15 @@
 # first-crawler
 My first crawler writing in python, using Scrapy.
 
+## Features
++ Using Scrapy + Splash
++ Autoupdating every 6 hours
+
 ## TODO
-- [ ] Basic product information, such as URL, product title, brand, categories, if applicable.
+- [ ] Basic product information, such as
+-- [ ] URL
+-- [ ] product title
+-- [ ] brand, categories, if applicable.
 - [ ] Images (maximum quality) for each color of the product.
 - [ ] Availability for each color and size combination.
 - [ ] For new product, it can be updated every 6 hours.
