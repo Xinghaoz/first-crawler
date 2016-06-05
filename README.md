@@ -6,7 +6,6 @@ My first crawler for crawling the fashion items in "http://www.mogujie.com/" and
 + Using Scrapy + Splash
 
 ## TODO
-    Basic product information, such as
 - [x] URL
 - [x] product title
 - [ ] brand (If applicable)
