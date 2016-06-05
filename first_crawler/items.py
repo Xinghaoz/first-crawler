@@ -16,3 +16,4 @@ class FashionItem(scrapy.Item):
     brand = scrapy.Field()
     categories = scrapy.Field()
     images = scrapy.Field()
+    availability = scrapy.Field()
