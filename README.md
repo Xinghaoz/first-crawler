@@ -19,4 +19,4 @@ My first crawler for crawling the fashion items in "http://www.mogujie.com/" and
 - [ ] If for some reason the crawler restarted, it can recover from where it left off and continue to crawl products / update products.
 
 ## USAGE
-'scrapy crawl first_crawler'
+`scrapy crawl first_crawler`
