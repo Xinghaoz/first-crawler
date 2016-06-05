@@ -9,8 +9,8 @@ My first crawler writing in python, using Scrapy.
 - [ ] Basic product information, such as
 1. URL
 2. product title
-3. [x] brand (If applicable)
-[x] 4. categories (If applicable)
+3. brand (If applicable)
+4. categories (If applicable)
 - [ ] Images (maximum quality) for each color of the product.
 - [ ] Availability for each color and size combination.
 - [ ] For new product, it can be updated every 6 hours.
