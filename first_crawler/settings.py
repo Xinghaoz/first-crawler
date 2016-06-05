@@ -14,11 +14,19 @@ BOT_NAME = 'first_crawler'
 SPIDER_MODULES = ['first_crawler.spiders']
 NEWSPIDER_MODULE = 'first_crawler.spiders'
 
-#DEPTH_LIMIT = 1 # Allow only 1 page deep
+DEPTH_LIMIT = 1 # Allow only 1 page deep
 ITEM_PIPELINES = {
     'first_crawler.pipelines.FirstCrawlerPipeline': 300,
 }
 DOWNLOAD_DELAY = .5 #
+
+# Scrapyjs
+DOWNLOADER_MIDDLEWARES = {
+    'scrapyjs.SplashMiddleware': 725,
+}
+SPLASH_URL = 'http://192.168.99.100:8050/'
+DUPEFILTER_CLASS = 'scrapyjs.SplashAwareDupeFilter'
+HTTPCACHE_STORAGE = 'scrapyjs.SplashAwareFSCacheStorage'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'first_crawler (+http://www.yourdomain.com)'

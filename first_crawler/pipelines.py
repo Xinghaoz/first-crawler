@@ -8,9 +8,9 @@
 
 class FirstCrawlerPipeline(object):
     def __init__(self):
-        self.file = open('fashion.dat', 'wb')
+        self.file = open('fashion', 'wb')
 
     def process_item(self, item, spider):
-        val = "{0}\n".format(item['url'])
+        val = "{0}\t{1}\n".format(item['url'], item['title'])
         self.file.write(val)
         return item

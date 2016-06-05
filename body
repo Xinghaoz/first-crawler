@@ -1,0 +1,688 @@
+
+
+
+	
+			
+	
+					
+			
+		
+	
+	
+		<!doctype html>
+<html>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  	
+	<!--
+		连衣裙,蘑菇街优店
+        时尚第一街优店moguselection精选最潮流的连衣裙，最优惠的价格最流行的款式解决连衣裙购物烦恼。
+	-->
+	    
+
+
+
+
+
+
+
+
+    <head>
+    <script type="text/javascript">
+                window.__trace__headstart = +new Date;
+                window.__server__startTime = 1465092539577;
+                window.__token = "aqYvorQ/pIOnyoHdg0A+qghrjuY+9T5iLY4nJ65Armo=";
+    </script>
+    <meta charset="UTF-8"/>
+
+        <link rel="dns-prefetch" href="//s6.mogucdn.com">
+    <link rel="dns-prefetch" href="//s7.mogucdn.com">
+    <link rel="dns-prefetch" href="//s6.mogujie.cn">
+    <link rel="dns-prefetch" href="//s7.mogujie.cn">
+    <link rel="dns-prefetch" href="//s8.mogujie.cn">
+    <link rel="dns-prefetch" href="//s9.mogujie.cn">
+    <link rel="dns-prefetch" href="//s12.mogujie.cn">
+    <link rel="dns-prefetch" href="//s13.mogujie.cn">
+
+    <meta http-equiv="Cache-Control" content="no-transform " />
+    <meta name="renderer" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <title>连衣裙_moguselection_蘑菇街优店</title>
+    <meta name="keywords" content="连衣裙,蘑菇街优店"/>
+    <meta name="description" content="时尚第一街优店moguselection精选最潮流的连衣裙，最优惠的价格最流行的款式解决连衣裙购物烦恼。"/>
+    <meta name="copyright" content="mogujie.com"/>
+
+    
+    
+    
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml"/>
+    <link rel="icon" href="http://s16.mogucdn.com/new1/v1/bmisc/3ce382db3c8aaca5d07bd36711e77134/171169993508.ico" type="image/x-icon"/>
+
+    <script> curl = {apiName: 'require'}; var MOGU = {}; var MoGu = {};</script>
+
+
+
+                <link href="https://s10.mogucdn.com/__newtown/mogu-global/assets/pc/common/base/css/index.css-8a587a11.css,newtown/mogu-global/assets/pc/common/captcha/captcha.css-f3f30a89.css,newtown/mogu-global/assets/pc/common/nav/index.css-a197ca12.css,newtown/mogu-global/assets/pc/common/header/index.css-fbf6e80d.css,newtown/mogu-global/assets/pc/common/login/index.css-a584daf0.css,newtown/mogu-shop/assets/common/shop/base/css/vpop.css-cf076314.css,newtown/mogu-shop/assets/common/shop/base/css/pkg-shop-header.css-cea3be8a.css" rel="stylesheet" type="text/css"/>
+    
+
+        
+        <link href="https://s10.mogucdn.com/__newtown/mogu-shop/assets/common/shop/base/css/pkg-shop-main.css-cc8c290c.css,newtown/mogu-shop/assets/pages/shop/list/css/pkg-shop-list.css-34ebfc11.css" rel="stylesheet" type="text/css"/>
+    
+                <script type="text/javascript" src="https://s10.mogucdn.com/__newtown/mogu-global/assets/lib/ztrace-frms.js-a230eae1.js,newtown/mogu-global/assets/lib/require.js-28d365a1.js,newtown/mogu-global/assets/lib/jquery-2.1.1.js-bae77d6a.js,newtown/mogu-global/assets/lib/jquery-migrate-1.2.1.js-8f8d6ccc.js,newtown/mogu-global/assets/pc/common/base/js/pkg-pc-base.js-beb518b8.js"></script>
+    
+    
+
+    <script type="text/javascript">
+
+        var MOGU_DEV= 0;
+
+        if(window.require) {
+            require.config({
+                domain: 0
+            });
+        }
+
+        MOGUPROFILE = {};
+
+        //性能打点数据检测
+        window.__trace__headendt = +new Date;
+        (function(){
+            window.__trace__domready = null;
+            window.__trace__ladingendt = null;
+            if(document.readyState){
+                function setDomOperation(){
+                    if(document.readyState == 'interactive'){
+                        window.__trace__domready = +new Date();
+                    }
+                    else if(document.readyState == 'complete'){
+                        window.__trace__ladingendt = +new Date();
+                    }
+                }
+                setDomOperation();
+                document.onreadystatechange = setDomOperation;
+            }
+        })();
+    </script>
+</head>
+
+
+
+<script>PTP_PARAMS={"ptp_cnt_a":"1","ptp_cnt_b":"CmymMoKw"};</script>
+
+<body>
+
+    
+<script type="text/javascript">
+    /**
+    ** for layout 960
+    **/
+    (function(){
+        var wWidth = $(window).width(); if(wWidth < 1212){ $('body').addClass('media_screen_960'); } else { $('body').addClass('media_screen_1200'); } 
+        //initTime for log 判断对象是否存在
+        window.MoGu && $.isFunction(MoGu.set) && MoGu.set('initTime', (new Date()).getTime());
+
+        var ua = navigator.userAgent;
+        // 判断是否是ipad
+        var is_plat_ipad = ua.match(/(iPad).*OS\s([\d_]+)/);
+        if(is_plat_ipad) {
+            $('body').addClass('media_ipad');
+        }
+        // 判断是否是ipadApp
+        var is_plat_ipadApp = ua.indexOf('MogujieHD') >= 0 || ua.indexOf('Mogujie4iPad') >= 0 || location.href.indexOf('_atype=ipad') >= 0;
+        if(is_plat_ipadApp) {
+            $('body').addClass('media_ipad_app');
+            // 隐藏头尾
+            $('body').append('<style type="text/css">.header_2015,.header_nav,.foot .foot_wrap{display: none;}.foot{height: 0;background: none;}.back2top_wrap{height:0;width:0;overflow:hidden;opacity:0;}</style>');
+            // 移除购物车，返回顶部
+            setTimeout(function(){
+                $('.back2top_wrap').remove();
+            },1000)
+        }
+    })();
+</script>
+    <div class="mgj_rightbar" data-ptp="_sidebar"></div>
+<div id="header" class="J_sitenav header_2015" data-ptp="_head">
+    <div class="wrap clearfix"></div>
+</div>
+        
+
+
+
+
+
+
+
+
+
+
+
+    
+    <!-- 店铺公共头部-店铺信息 start -->
+                    <!-- special shop has sepcial shop-head lol :) -->
+    
+        <input type="hidden" id="shopBaseUrlSec" value="http://shop.mogujie.com/1qfnyw">
+    <!-- 店铺公共头部-店铺信息 end -->
+<input type="hidden" id="shopId" value="1qfnyw">
+<input type="hidden" id="shopBaseUrl" value="http://shop.mogujie.com/1qfnyw">
+
+
+    
+    
+                                                                                                                                                
+                    <!-- topBanner -->
+        <div class="ovbox mod_topBanner">
+            <div class="mod_list clearfix">
+                <div class="mod_item w1200" data-id="3551941" data-width="1200" data-type="topBanner" data-title="$commonTopBanner.layoutname">
+                    <div class="mod_cont topbanner">
+                        <a class="shop_bg_img" href="" data-src="http://s7.mogucdn.com/b7/pic/160315/27joeg_ie4tanrvmu3dcmjvg4zdambqgqyde_1920x150.jpg" style="background: url(http://s7.mogucdn.com/b7/pic/160315/27joeg_ie4tanrvmu3dcmjvg4zdambqgqyde_1920x150.jpg) center no-repeat"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+                    <!-- topNavgation -->
+                                            <div class="ovbox mod_topNav blackStyle">
+            <div class="mod_list clearfix">
+                <div class="mod_item w1200" data-id="3551942" data-width="1200" data-type="topNav" data-title="$commonTopNav.layoutName">
+                    <div class="mod_cont topNav">
+                        <ol class="clearfix">
+                                                                                                                    <!-- special shop -->
+                                                                                                                                                                                <li class="all"><a href="http://shop.mogujie.com/1qfnyw/index/total">全部商品</a></li>
+                                                                                                                                                                                <li><a href="http://shop.mogujie.com/1qfnyw/list/index?categoryId=20005661">T恤</a></li>
+                                                                <li><a href="http://shop.mogujie.com/1qfnyw/list/index?categoryId=20005648">what a tee</a></li>
+                                                                <li><a href="http://shop.mogujie.com/1qfnyw/list/index?categoryId=20005650">连衣裙</a></li>
+                                                                <li><a href="http://shop.mogujie.com/1qfnyw/list/index?categoryId=20005670">半身裙</a></li>
+                                                                <li><a href="http://shop.mogujie.com/1qfnyw/list/index?categoryId=20005671">打底</a></li>
+                                                                <li><a href="http://shop.mogujie.com/1qfnyw/list/index?categoryId=1474476">裤子</a></li>
+                                                                <li><a href="http://shop.mogujie.com/1qfnyw/list/index?categoryId=20005664">牛仔</a></li>
+                                                                <li><a href="http://shop.mogujie.com/1qfnyw/list/index?categoryId=20005655">衬衫</a></li>
+                                                            
+                        </ol>
+                                                                                                        <div class="category_list slideer without-home-item" style="display: none;">
+                                    <dl>
+                                                                                    <dd>
+                                                <a href="http://shop.mogujie.com/1qfnyw/list/index?categoryId=1474475">上装</a>
+                                            </dd>
+                                                                                    <dd>
+                                                <a href="http://shop.mogujie.com/1qfnyw/list/index?categoryId=1474476">裤子</a>
+                                            </dd>
+                                                                                    <dd>
+                                                <a href="http://shop.mogujie.com/1qfnyw/list/index?categoryId=1474478">裙装</a>
+                                            </dd>
+                                                                                    <dd>
+                                                <a href="http://shop.mogujie.com/1qfnyw/list/index?categoryId=1525040">套装</a>
+                                            </dd>
+                                                                                    <dd>
+                                                <a href="http://shop.mogujie.com/1qfnyw/list/index?categoryId=20004493">包包</a>
+                                            </dd>
+                                                                                    <dd>
+                                                <a href="http://shop.mogujie.com/1qfnyw/list/index?categoryId=20005648">what a tee</a>
+                                            </dd>
+                                                                                    <dd>
+                                                <a href="http://shop.mogujie.com/1qfnyw/list/index?categoryId=20005650">连衣裙</a>
+                                            </dd>
+                                                                                    <dd>
+                                                <a href="http://shop.mogujie.com/1qfnyw/list/index?categoryId=20005655">衬衫</a>
+                                            </dd>
+                                                                                    <dd>
+                                                <a href="http://shop.mogujie.com/1qfnyw/list/index?categoryId=20005661">T恤</a>
+                                            </dd>
+                                                                                    <dd>
+                                                <a href="http://shop.mogujie.com/1qfnyw/list/index?categoryId=20005664">牛仔</a>
+                                            </dd>
+                                                                                    <dd>
+                                                <a href="http://shop.mogujie.com/1qfnyw/list/index?categoryId=20005670">半身裙</a>
+                                            </dd>
+                                                                                    <dd>
+                                                <a href="http://shop.mogujie.com/1qfnyw/list/index?categoryId=20005671">打底</a>
+                                            </dd>
+                                                                            </dl>
+                                </div>
+                                                                        </div>
+                </div>
+            </div>
+        </div>
+            
+
+    <div class="shop-main">
+    <!-- 店铺默认图墙 -->
+        <div class="shop-feed" id="shopFeed" data-ptp="_items">
+        <div class="nav">
+            <ul class="clearfix">
+                <li data-order="hot" class="first  current " ><a href="http://shop.mogujie.com/1qfnyw/list/index?categoryId=20005650&order=hot">热门</a></li>
+                <li data-order="created"  class="" ><a href="http://shop.mogujie.com/1qfnyw/list/index?categoryId=20005650&order=created">最新</a></li>
+                <li data-order="sale" class="" ><a href="http://shop.mogujie.com/1qfnyw/list/index?categoryId=20005650&order=sale">销量</a></li>
+            </ul>
+        </div>
+        <div class="list imagewall clearfix" id="J_ShopFeedList">
+                            <div class="item i_w_f youdian" tid="0" iid="">
+                                        <a href="http://shop.mogujie.com/detail/1jva0lc?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" class="img" target="_blank">
+                                                <img width="225" src="http://s18.mogucdn.com/p1/160516/145156753_ifqwmzrtgazwgmbzhazdambqgyyde_720x1080.jpg_225x999.jpg" alt="胸口荷叶边日系吊带连衣裙，粉蓝色是夏天必备流行色。穿上此款连衣裙尽显可爱甜美风。">
+                    </a>
+                    <div class="favorite" style="position: relative;">
+                        <a class="favaImg" href="javascript:;" data-tradeitemid="1jva0lc" tradeitemid="!1jva0lc" tid="0"></a>
+                    </div>
+
+                    <p class="title">
+                        <a href="http://shop.mogujie.com/detail/1jva0lc?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" target="_blank">蘑菇良品 吊带甜美连衣裙</a>
+                    </p>
+                    <div class="goods-info clearfix">
+                        <b class="price"><i>￥</i>71.44</b>
+                                                    <span class="discount">4.7 折</span>
+                                                <span class="fav-num">4110</span>
+                    </div>
+                </div>
+                            <div class="item i_w_f youdian" tid="0" iid="">
+                                        <a href="http://shop.mogujie.com/detail/1jvlu9e?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" class="img" target="_blank">
+                                                <img width="225" src="http://s18.mogucdn.com/p1/160520/145156753_ifrdcndegrstandbhazdambqmeyde_720x1080.jpg_225x999.jpg" alt="简约干练的设计，精选的优质面料，简单的色彩设计，时尚又不失格调，让工作中的你举手投足间透露出一股优雅气质。">
+                    </a>
+                    <div class="favorite" style="position: relative;">
+                        <a class="favaImg" href="javascript:;" data-tradeitemid="1jvlu9e" tradeitemid="!1jvlu9e" tid="0"></a>
+                    </div>
+
+                    <p class="title">
+                        <a href="http://shop.mogujie.com/detail/1jvlu9e?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" target="_blank">蘑菇良品 条纹短袖修身假两件连衣裙</a>
+                    </p>
+                    <div class="goods-info clearfix">
+                        <b class="price"><i>￥</i>72.85</b>
+                                                    <span class="discount">4.7 折</span>
+                                                <span class="fav-num">1422</span>
+                    </div>
+                </div>
+                            <div class="item i_w_f youdian" tid="0" iid="">
+                                        <a href="http://shop.mogujie.com/detail/18qau60?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" class="img" target="_blank">
+                                                <img width="225" src="http://s18.mogucdn.com/p1/160419/134443643_ifrdcmtgmjtgknjqhazdambqmeyde_720x1080.jpg_225x999.jpg" alt="经典黑色，百褶裙型，适合闺蜜约会出行旅游的单品">
+                    </a>
+                    <div class="favorite" style="position: relative;">
+                        <a class="favaImg" href="javascript:;" data-tradeitemid="18qau60" tradeitemid="!18qau60" tid="0"></a>
+                    </div>
+
+                    <p class="title">
+                        <a href="http://shop.mogujie.com/detail/18qau60?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" target="_blank">蘑菇良品  经典黑色百搭连衣裙</a>
+                    </p>
+                    <div class="goods-info clearfix">
+                        <b class="price"><i>￥</i>75.67</b>
+                                                    <span class="discount">4.7 折</span>
+                                                <span class="fav-num">9821</span>
+                    </div>
+                </div>
+                            <div class="item i_w_f youdian" tid="0" iid="">
+                                        <a href="http://shop.mogujie.com/detail/1juznhc?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" class="img" target="_blank">
+                                                <img width="225" src="http://s18.mogucdn.com/p1/160603/133607752_ifqtantcmm4wgy3fhazdambqgyyde_720x1080.jpg_225x999.jpg" alt="波西米亚的元素提取，流苏设计配上校园风的简洁设计，穿上非常的青春可爱，一定要入哦。">
+                    </a>
+                    <div class="favorite" style="position: relative;">
+                        <a class="favaImg" href="javascript:;" data-tradeitemid="1juznhc" tradeitemid="!1juznhc" tid="0"></a>
+                    </div>
+
+                    <p class="title">
+                        <a href="http://shop.mogujie.com/detail/1juznhc?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" target="_blank">蘑菇良品 流苏百褶连衣裙</a>
+                    </p>
+                    <div class="goods-info clearfix">
+                        <b class="price"><i>￥</i>72.85</b>
+                                                    <span class="discount">4.7 折</span>
+                                                <span class="fav-num">6668</span>
+                    </div>
+                </div>
+                            <div class="item i_w_f youdian" tid="0" iid="">
+                                        <a href="http://shop.mogujie.com/detail/1jvwvsk?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" class="img" target="_blank">
+                                                <img width="225" src="http://s18.mogucdn.com/p1/160523/145156753_ifrgeyjtgbswgndchazdambqmeyde_720x1080.jpg_225x999.jpg" alt="菱形格连衣裙，直筒的廓形，这种廓形特别的洋气优雅哦。">
+                    </a>
+                    <div class="favorite" style="position: relative;">
+                        <a class="favaImg" href="javascript:;" data-tradeitemid="1jvwvsk" tradeitemid="!1jvwvsk" tid="0"></a>
+                    </div>
+
+                    <p class="title">
+                        <a href="http://shop.mogujie.com/detail/1jvwvsk?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" target="_blank">蘑菇良品 菱形格纹连衣裙</a>
+                    </p>
+                    <div class="goods-info clearfix">
+                        <b class="price"><i>￥</i>64.40</b>
+                                                    <span class="discount">4.6 折</span>
+                                                <span class="fav-num">1209</span>
+                    </div>
+                </div>
+                            <div class="item i_w_f youdian" tid="0" iid="">
+                                        <a href="http://shop.mogujie.com/detail/18q7lcg?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" class="img" target="_blank">
+                                                <img width="225" src="http://s18.mogucdn.com/p1/160418/134442646_ie4wcmjsgeztgmbqhazdambqgqyde_720x1080.jpg_225x999.jpg" alt="很显身材的一款连衣裙，个性字母印花还加入了音乐星星符号，轻熟女神即视感。">
+                    </a>
+                    <div class="favorite" style="position: relative;">
+                        <a class="favaImg" href="javascript:;" data-tradeitemid="18q7lcg" tradeitemid="!18q7lcg" tid="0"></a>
+                    </div>
+
+                    <p class="title">
+                        <a href="http://shop.mogujie.com/detail/18q7lcg?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" target="_blank">蘑菇良品 简单字母印花T恤连衣裙 三色可选</a>
+                    </p>
+                    <div class="goods-info clearfix">
+                        <b class="price"><i>￥</i>64.40</b>
+                                                    <span class="discount">4.6 折</span>
+                                                <span class="fav-num">5835</span>
+                    </div>
+                </div>
+                            <div class="item i_w_f youdian" tid="0" iid="">
+                                        <a href="http://shop.mogujie.com/detail/1jw4y6y?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" class="img" target="_blank">
+                                                <img width="225" src="http://s18.mogucdn.com/p1/160526/145156753_ie4tknbsmzstkmtdhazdambqgqyde_720x1080.jpg_225x999.jpg" alt="韩版超值两件套 。 竖条纹内搭白色T，清爽大方还显瘦。内搭白T荷叶边袖口，简约不简单。">
+                    </a>
+                    <div class="favorite" style="position: relative;">
+                        <a class="favaImg" href="javascript:;" data-tradeitemid="1jw4y6y" tradeitemid="!1jw4y6y" tid="0"></a>
+                    </div>
+
+                    <p class="title">
+                        <a href="http://shop.mogujie.com/detail/1jw4y6y?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" target="_blank">蘑菇良品 时尚条纹两件套连衣裙</a>
+                    </p>
+                    <div class="goods-info clearfix">
+                        <b class="price"><i>￥</i>43.26</b>
+                                                    <span class="discount">4.2 折</span>
+                                                <span class="fav-num">2162</span>
+                    </div>
+                </div>
+                            <div class="item i_w_f youdian" tid="0" iid="">
+                                        <a href="http://shop.mogujie.com/detail/1juyyhg?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" class="img" target="_blank">
+                                                <img width="225" src="http://s18.mogucdn.com/p1/160513/145156753_ifrwkmbsg43dezrxhazdambqhayde_720x1080.jpg_225x999.jpg" alt="今年大热的衬衫裙款式，加上心机的露腰设计，夏天来啦，是时候展露出你的小蛮腰了哦。">
+                    </a>
+                    <div class="favorite" style="position: relative;">
+                        <a class="favaImg" href="javascript:;" data-tradeitemid="1juyyhg" tradeitemid="!1juyyhg" tid="0"></a>
+                    </div>
+
+                    <p class="title">
+                        <a href="http://shop.mogujie.com/detail/1juyyhg?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" target="_blank">蘑菇良品 露腰性感可爱条纹连衣裙</a>
+                    </p>
+                    <div class="goods-info clearfix">
+                        <b class="price"><i>￥</i>72.85</b>
+                                                    <span class="discount">4.7 折</span>
+                                                <span class="fav-num">4879</span>
+                    </div>
+                </div>
+                            <div class="item i_w_f youdian" tid="0" iid="">
+                                        <a href="http://shop.mogujie.com/detail/1jvi4eg?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" class="img" target="_blank">
+                                                <img width="225" src="http://s18.mogucdn.com/p1/160522/140501390_ifqwgoddgu4toytbhazdambqgyyde_720x1080.jpg_225x999.jpg" alt="小碎花连衣裙，图案清新，领口小三角挖口和系带，细节精致">
+                    </a>
+                    <div class="favorite" style="position: relative;">
+                        <a class="favaImg" href="javascript:;" data-tradeitemid="1jvi4eg" tradeitemid="!1jvi4eg" tid="0"></a>
+                    </div>
+
+                    <p class="title">
+                        <a href="http://shop.mogujie.com/detail/1jvi4eg?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" target="_blank">蘑菇良品 立体印花小碎花连衣裙</a>
+                    </p>
+                    <div class="goods-info clearfix">
+                        <b class="price"><i>￥</i>47.30</b>
+                                                    <span class="discount">4.3 折</span>
+                                                <span class="fav-num">3540</span>
+                    </div>
+                </div>
+                            <div class="item i_w_f youdian" tid="0" iid="">
+                                        <a href="http://shop.mogujie.com/detail/1jvlaw4?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" class="img" target="_blank">
+                                                <img width="225" src="http://s18.mogucdn.com/p1/160531/133607752_ifrwmndegbtdszdehazdambqhayde_720x1080.jpg_225x999.jpg" alt="内搭经典条纹的T恤。小吊带裙，清新可爱。吊带裙的款型是今年流行的睡衣型。 ">
+                    </a>
+                    <div class="favorite" style="position: relative;">
+                        <a class="favaImg" href="javascript:;" data-tradeitemid="1jvlaw4" tradeitemid="!1jvlaw4" tid="0"></a>
+                    </div>
+
+                    <p class="title">
+                        <a href="http://shop.mogujie.com/detail/1jvlaw4?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" target="_blank">蘑菇良品 时尚条纹两件套</a>
+                    </p>
+                    <div class="goods-info clearfix">
+                        <b class="price"><i>￥</i>57.15</b>
+                                                    <span class="discount">4.5 折</span>
+                                                <span class="fav-num">541</span>
+                    </div>
+                </div>
+                            <div class="item i_w_f youdian" tid="0" iid="">
+                                        <a href="http://shop.mogujie.com/detail/1jviunk?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" class="img" target="_blank">
+                                                <img width="225" src="http://s18.mogucdn.com/p1/160519/145156753_ifqwcmddmnsdgzrzhazdambqgyyde_720x1080.jpg_225x999.jpg" alt="肩部拼接蕾丝设计，微透小锁骨，气质不乏小性感。拼接波浪荷叶边装饰，飘逸灵动。">
+                    </a>
+                    <div class="favorite" style="position: relative;">
+                        <a class="favaImg" href="javascript:;" data-tradeitemid="1jviunk" tradeitemid="!1jviunk" tid="0"></a>
+                    </div>
+
+                    <p class="title">
+                        <a href="http://shop.mogujie.com/detail/1jviunk?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" target="_blank">蘑菇良品 蕾丝拼接连衣裙</a>
+                    </p>
+                    <div class="goods-info clearfix">
+                        <b class="price"><i>￥</i>61.64</b>
+                                                    <span class="discount">4.6 折</span>
+                                                <span class="fav-num">2734</span>
+                    </div>
+                </div>
+                            <div class="item i_w_f youdian" tid="0" iid="">
+                                        <a href="http://shop.mogujie.com/detail/1jvgd0o?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" class="img" target="_blank">
+                                                <img width="225" src="http://s18.mogucdn.com/p1/160519/140501390_ifqtenrtheydmzrzhazdambqgyyde_720x1080.jpg_225x999.jpg" alt="百褶大摆连衣裙，非常的百搭时尚，可以搭配在T恤外面，也可以直接穿着，穿着性非常强，夏季必备款式。">
+                    </a>
+                    <div class="favorite" style="position: relative;">
+                        <a class="favaImg" href="javascript:;" data-tradeitemid="1jvgd0o" tradeitemid="!1jvgd0o" tid="0"></a>
+                    </div>
+
+                    <p class="title">
+                        <a href="http://shop.mogujie.com/detail/1jvgd0o?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" target="_blank">蘑菇良品 百褶雪纺印花吊带连衣裙</a>
+                    </p>
+                    <div class="goods-info clearfix">
+                        <b class="price"><i>￥</i>80.16</b>
+                                                    <span class="discount">4.8 折</span>
+                                                <span class="fav-num">752</span>
+                    </div>
+                </div>
+                            <div class="item i_w_f youdian" tid="0" iid="">
+                                        <a href="http://shop.mogujie.com/detail/1jukyz6?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" class="img" target="_blank">
+                                                <img width="225" src="http://s18.mogucdn.com/p1/160508/133607752_ifrdomlggm2tmnrwhazdambqmeyde_720x1080.jpg_225x999.jpg" alt="纯色的连衣裙也有小心机，下摆小鱼尾的设计，更显青春可爱，还有非常可爱的卡通刺绣，细节感十足，质感非常棒的连衣裙你值得拥有!">
+                    </a>
+                    <div class="favorite" style="position: relative;">
+                        <a class="favaImg" href="javascript:;" data-tradeitemid="1jukyz6" tradeitemid="!1jukyz6" tid="0"></a>
+                    </div>
+
+                    <p class="title">
+                        <a href="http://shop.mogujie.com/detail/1jukyz6?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" target="_blank">蘑菇良品 卡通刺绣鱼尾连衣裙</a>
+                    </p>
+                    <div class="goods-info clearfix">
+                        <b class="price"><i>￥</i>64.40</b>
+                                                    <span class="discount">4.6 折</span>
+                                                <span class="fav-num">2841</span>
+                    </div>
+                </div>
+                            <div class="item i_w_f youdian" tid="0" iid="">
+                                        <a href="http://shop.mogujie.com/detail/1jus2ec?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" class="img" target="_blank">
+                                                <img width="225" src="http://s18.mogucdn.com/p1/160510/140501390_ifrdeobrhe2tkmrxhazdambqmeyde_720x1080.jpg_225x999.jpg" alt="条纹的设计，时尚显瘦，是时下最流行的款式哦，系领的设计，个性可爱，整套搭配非常的青春，一定要入的款式哦。">
+                    </a>
+                    <div class="favorite" style="position: relative;">
+                        <a class="favaImg" href="javascript:;" data-tradeitemid="1jus2ec" tradeitemid="!1jus2ec" tid="0"></a>
+                    </div>
+
+                    <p class="title">
+                        <a href="http://shop.mogujie.com/detail/1jus2ec?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" target="_blank">蘑菇良品 竖条纹系带无袖连衣裙</a>
+                    </p>
+                    <div class="goods-info clearfix">
+                        <b class="price"><i>￥</i>72.85</b>
+                                                    <span class="discount">4.7 折</span>
+                                                <span class="fav-num">3707</span>
+                    </div>
+                </div>
+                            <div class="item i_w_f youdian" tid="0" iid="">
+                                        <a href="http://shop.mogujie.com/detail/1juyzqq?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" class="img" target="_blank">
+                                                <img width="225" src="http://s18.mogucdn.com/p1/160513/145156753_ie4wmzjwmm3tgzrxhazdambqgqyde_720x1080.jpg_225x999.jpg" alt="今年的流行趋势，条纹衬衫裙加上复古的前片绑带设计集于一身，穿上它，今夏最时尚的就是你了哦。">
+                    </a>
+                    <div class="favorite" style="position: relative;">
+                        <a class="favaImg" href="javascript:;" data-tradeitemid="1juyzqq" tradeitemid="!1juyzqq" tid="0"></a>
+                    </div>
+
+                    <p class="title">
+                        <a href="http://shop.mogujie.com/detail/1juyzqq?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" target="_blank">蘑菇良品 绑带条纹连衣裙</a>
+                    </p>
+                    <div class="goods-info clearfix">
+                        <b class="price"><i>￥</i>72.85</b>
+                                                    <span class="discount">4.7 折</span>
+                                                <span class="fav-num">3442</span>
+                    </div>
+                </div>
+                            <div class="item i_w_f youdian" tid="0" iid="">
+                                        <a href="http://shop.mogujie.com/detail/1jvi9pu?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" class="img" target="_blank">
+                                                <img width="225" src="http://s18.mogucdn.com/p1/160519/145156753_ifrtkm3dga4wczjzhazdambqhayde_720x1080.jpg_225x999.jpg" alt="纯色的连衣裙也有小心机，胸前心形刺绣，更显青春可爱，细节感十足。质感非常棒的连衣裙你值得拥有！">
+                    </a>
+                    <div class="favorite" style="position: relative;">
+                        <a class="favaImg" href="javascript:;" data-tradeitemid="1jvi9pu" tradeitemid="!1jvi9pu" tid="0"></a>
+                    </div>
+
+                    <p class="title">
+                        <a href="http://shop.mogujie.com/detail/1jvi9pu?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" target="_blank">蘑菇良品 甜美可爱学院风连衣裙</a>
+                    </p>
+                    <div class="goods-info clearfix">
+                        <b class="price"><i>￥</i>67.16</b>
+                                                    <span class="discount">4.6 折</span>
+                                                <span class="fav-num">1353</span>
+                    </div>
+                </div>
+                            <div class="item i_w_f youdian" tid="0" iid="">
+                                        <a href="http://shop.mogujie.com/detail/1jwjzc8?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" class="img" target="_blank">
+                                                <img width="225" src="http://s18.mogucdn.com/p1/160531/145156753_ie4gizbxgvrwmy3ehazdambqgiyde_720x1080.jpg_225x999.jpg" alt="条纹学院风，俏皮十足，海魂衫娃娃领，可爱减龄，中长款的剪裁，半弧形下摆，彰显淑女范。">
+                    </a>
+                    <div class="favorite" style="position: relative;">
+                        <a class="favaImg" href="javascript:;" data-tradeitemid="1jwjzc8" tradeitemid="!1jwjzc8" tid="0"></a>
+                    </div>
+
+                    <p class="title">
+                        <a href="http://shop.mogujie.com/detail/1jwjzc8?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" target="_blank">蘑菇良品 条纹学院风连衣裙</a>
+                    </p>
+                    <div class="goods-info clearfix">
+                        <b class="price"><i>￥</i>57.15</b>
+                                                    <span class="discount">4.5 折</span>
+                                                <span class="fav-num">346</span>
+                    </div>
+                </div>
+                            <div class="item i_w_f youdian" tid="0" iid="">
+                                        <a href="http://shop.mogujie.com/detail/1jwhqjc?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" class="img" target="_blank">
+                                                <img width="225" src="http://s18.mogucdn.com/p1/160530/145156753_ie4dmyjtgeywcodehazdambqgiyde_720x1080.jpg_225x999.jpg" alt="海军学院风满满的蓝白条纹连衣裙。大大的裙摆，很小清新，衬衣式的连衣裙非常的好穿，是必备单品之一哦">
+                    </a>
+                    <div class="favorite" style="position: relative;">
+                        <a class="favaImg" href="javascript:;" data-tradeitemid="1jwhqjc" tradeitemid="!1jwhqjc" tid="0"></a>
+                    </div>
+
+                    <p class="title">
+                        <a href="http://shop.mogujie.com/detail/1jwhqjc?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" target="_blank">蘑菇良品 清新学院风连衣裙</a>
+                    </p>
+                    <div class="goods-info clearfix">
+                        <b class="price"><i>￥</i>94.08</b>
+                                                    <span class="discount">4.9 折</span>
+                                                <span class="fav-num">283</span>
+                    </div>
+                </div>
+                            <div class="item i_w_f youdian" tid="0" iid="">
+                                        <a href="http://shop.mogujie.com/detail/18xig88?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" class="img" target="_blank">
+                                                <img width="225" src="http://s18.mogucdn.com/p1/160421/145156753_ie4tqmbqgizdkzrqhazdambqgqyde_720x1080.jpg_225x999.jpg" alt="非常舒适的面料，透气耐穿。格纹的图案更显瘦哦，夏季绝对需要备上一条这样的连衣裙！！">
+                    </a>
+                    <div class="favorite" style="position: relative;">
+                        <a class="favaImg" href="javascript:;" data-tradeitemid="18xig88" tradeitemid="!18xig88" tid="0"></a>
+                    </div>
+
+                    <p class="title">
+                        <a href="http://shop.mogujie.com/detail/18xig88?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" target="_blank">蘑菇良品 夏季休闲格纹连衣裙</a>
+                    </p>
+                    <div class="goods-info clearfix">
+                        <b class="price"><i>￥</i>46.01</b>
+                                                    <span class="discount">4.3 折</span>
+                                                <span class="fav-num">1093</span>
+                    </div>
+                </div>
+                            <div class="item i_w_f youdian" tid="0" iid="">
+                                        <a href="http://shop.mogujie.com/detail/1jv9r2c?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" class="img" target="_blank">
+                                                <img width="225" src="http://s18.mogucdn.com/p1/160516/140501390_ifrdgylcmq3tmmbzhazdambqmeyde_720x1080.jpg_225x999.jpg" alt="蝴蝶印花，时尚又百搭，一款适合春夏的连衣裙，轻薄的雪纺，裙摆飘飘，给你淑女范儿。">
+                    </a>
+                    <div class="favorite" style="position: relative;">
+                        <a class="favaImg" href="javascript:;" data-tradeitemid="1jv9r2c" tradeitemid="!1jv9r2c" tid="0"></a>
+                    </div>
+
+                    <p class="title">
+                        <a href="http://shop.mogujie.com/detail/1jv9r2c?acm=1.ms.1.0.4406.0GlpNdgZhJ6.331" target="_blank">蘑菇良品 蝴蝶印花淑女连衣裙</a>
+                    </p>
+                    <div class="goods-info clearfix">
+                        <b class="price"><i>￥</i>118.50</b>
+                                                    <span class="discount">5.0 折</span>
+                                                <span class="fav-num">1330</span>
+                    </div>
+                </div>
+                    </div>
+        <div class="pagination"></div>
+    </div>
+        
+    <input type="hidden" id="categoryId" value="20005650" />
+    <input type="hidden" id="pageindex" value="1" />
+    <input type="hidden" id="order" value="" />
+    <input type="hidden" id="goodsRecommend" value="" />
+    <input type="hidden" id="isEnd" value="" />
+    <input type="hidden" id="monitorDatas" value={"iids":["1jva0lc","1jvlu9e","18qau60","1juznhc","1jvwvsk","18q7lcg","1jw4y6y","1juyyhg","1jvi4eg","1jvlaw4","1jviunk","1jvgd0o","1jukyz6","1jus2ec","1juyzqq","1jvi9pu","1jwjzc8","1jwhqjc","18xig88","1jv9r2c"],"acms":["1.ms.1.0.4406.0GlpNdgZhJ6.331","1.ms.1.0.4406.0GlpNdgZhJ6.331","1.ms.1.0.4406.0GlpNdgZhJ6.331","1.ms.1.0.4406.0GlpNdgZhJ6.331","1.ms.1.0.4406.0GlpNdgZhJ6.331","1.ms.1.0.4406.0GlpNdgZhJ6.331","1.ms.1.0.4406.0GlpNdgZhJ6.331","1.ms.1.0.4406.0GlpNdgZhJ6.331","1.ms.1.0.4406.0GlpNdgZhJ6.331","1.ms.1.0.4406.0GlpNdgZhJ6.331","1.ms.1.0.4406.0GlpNdgZhJ6.331","1.ms.1.0.4406.0GlpNdgZhJ6.331","1.ms.1.0.4406.0GlpNdgZhJ6.331","1.ms.1.0.4406.0GlpNdgZhJ6.331","1.ms.1.0.4406.0GlpNdgZhJ6.331","1.ms.1.0.4406.0GlpNdgZhJ6.331","1.ms.1.0.4406.0GlpNdgZhJ6.331","1.ms.1.0.4406.0GlpNdgZhJ6.331","1.ms.1.0.4406.0GlpNdgZhJ6.331","1.ms.1.0.4406.0GlpNdgZhJ6.331"],"indexs":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]} />
+</div>
+
+
+    <div class="foot J_footertimer" data-ptp="_foot" data-svrtime="">
+    <div class="wrap foot_wrap clearfix">
+        <div class="foot_info">
+            <a rel="nofollow" class="info_logo" href="http://www.mogujie.com"></a>
+            <div class="info_text">
+                <p>营业执照注册号：<a rel="nofollow" href="http://s6.mogucdn.com/pic/140924/8qc9_ieydgn3emqztszbxmmytambqmmyde_1502x2246.jpg" target="_blank">330106000129004</a></p>
+                <p>增值电信业务经营许可证：<a rel="nofollow" href="http://s6.mogucdn.com/pic/140924/8qc9_ieydgzrxhe3tszbxmmytambqmeyde_2161x3189.jpg" target="_blank">浙B2-20110349</a></p>
+                <p>ICP备案号：浙ICP备10044327号-3</p>
+                <p>
+                    <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010602002329" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+                        <img src="http://s18.mogucdn.com/p1/160428/upload_ifrgemjwgq3gemzthazdambqmeyde_20x20.png" style="float:left;">
+                        <span style="color: #999;">&nbsp;浙公网安备 33010602002329号</span>
+                    </a>
+                </p>
+                <p class="mgjhostname" title="<?php echo gethostname();?>">©<? echo date("Y") ?> Mogujie.com 杭州卷瓜网络有限公司</p>
+            </div>
+        </div>
+        <div class="foot_link">
+            <dl class="link_company">
+                <dt>公司</dt>
+                <dd><a rel="nofollow" href="http://www.mogujie.com/us" target="_blank">关于我们</a></dd>
+                <dd><a rel="nofollow" href="http://job.mogujie.com/social" target="_blank">招聘信息</a></dd>
+                <dd><a rel="nofollow" href="http://www.mogujie.com/about" target="_blank">联系我们</a></dd>
+            </dl>
+            <dl class="link_consumer">
+                <dt>消费者</dt>
+                <dd><a rel="nofollow" href="http://www.mogujie.com/help" target="_blank">消费者服务</a></dd>
+                <dd><a rel="nofollow" href="http://www.mogujie.com/help/selfservice" target="_blank">意见反馈</a></dd>
+                <dd><a rel="nofollow" href="http://www.mogujie.com/apps/mobile" target="_blank">手机版下载</a></dd>
+            </dl>
+            <dl class="link_business">
+                <dt>商家</dt>
+                <dd><a rel="nofollow" href="http://www.xiaodian.com/pc/joinmarket" target="_blank">商家入驻</a></dd>
+                <dd><a rel="nofollow" href="http://www.xiaodian.com/pc/shopadmin/shopface" target="_blank">商家后台</a></dd>
+                <dd><a rel="nofollow" href="http://peixun.xiaodian.com" target="_blank">蘑菇商学院</a></dd>
+                <dd><a rel="nofollow" href="http://bbs.xiaodian.com" target="_blank">商家社区</a></dd>
+            </dl>
+            <dl class="link_safe">
+                <dt>权威认证</dt>
+                <dd>
+                    <a rel="nofollow" class="pc" onclick="window.open('http://www.pingpinganan.gov.cn/','_blank')" href="javascript:;" target="_blank"></a>
+                    <a rel="nofollow" class="pa" onclick="window.open('http://bank.pingan.com/index.shtml','_blank')" target="_blank" href="javascript:;" ></a>
+                    <a rel="nofollow" href="javascript:;" onclick="window.open('https://ss.knet.cn/verifyseal.dll?sn=e14090533010053532r3hn000000&amp;ct=df&amp;a=1&amp;pa=500267&amp;tp=1.0.20.0.28.KXYH9AB','_blank')" class="kx" target="_blank"></a>
+                </dd>
+            </dl>
+        </div>
+    </div>
+</div>
+
+
+        <script type="text/javascript" src="https://s10.mogucdn.com/__newtown/mogu-global/assets/pc/common/lib-mgtool.js-42bdce38.js,newtown/mogu-global/assets/pc/common/globe-mogufunction.js-24c57526.js,newtown/mogu-global/assets/pc/common/im/module-im.js-4afb454d.js,newtown/mogu-global/assets/pc/common/swfobject.js-8bc9919e.js,newtown/mogu-global/assets/pc/common/im/im-io.js-2d6cf06c.js,newtown/mogu-global/assets/pc/common/module-push.js-2dcf58a3.js,newtown/mogu-global/assets/pc/common/captcha/module-captcha.js-d156addd.js,newtown/mogu-global/assets/pc/common/mga.js-d67fecc6.js,newtown/mogu-global/assets/pc/common/nav/index.js-d51f0e19.js,newtown/mogu-global/assets/lib/log/logger-0.1.0.js-ffa9a8b5.js,newtown/mogu-global/assets/pc/common/trace.js-7507c39c.js,newtown/mogu-global/assets/pc/common/header/index.js-fe8fe326.js,newtown/mogu-global/assets/pc/common/login/index.js-d88c093f.js,newtown/mogu-shop/assets/common/shop/base/js/vpop.js-a98c6397.js,newtown/mogu-shop/assets/common/shop/base/js/pkg-shop-header.js-ac25e854.js,newtown/mogu-shop/assets/common/shop/base/js/pkg-shop-topNav.js-5ee62852.js"></script>
+    
+        <script type="text/javascript" src="https://s10.mogucdn.com/__newtown/mogu-shop/assets/pages/shop/list/js/pkg-shop-list.js-a4eebf93.js"></script>
+    
+</body>
+
+</html>
+
+
