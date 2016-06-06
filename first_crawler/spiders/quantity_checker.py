@@ -1,16 +1,15 @@
 import scrapy
 from scrapy.spiders import CrawlSpider, Rule
 from scrapy.selector import Selector
-from first_crawler.items import FashionItem
+from first_crawler.items import QuantityItem
 from scrapy.linkextractors import LinkExtractor
 from scrapy.http import Request
+import re
 
 
-from scrapy.contrib.loader import ItemLoader
 
-
-class FirstSpider (CrawlSpider):
-    name = 'first_crawler'
+class QuantityChecker (CrawlSpider):
+    name = 'quantity_checker'
     allowed_domains = ['mogujie.com']
     start_urls = ["http://www.mogujie.com/"]
 
@@ -19,7 +18,7 @@ class FirstSpider (CrawlSpider):
     #start_urls = ["http://www.mogujie.com/book/clothing/50003?from=hpc_2"]
 
     rules = (
-        Rule(LinkExtractor( allow = ("http://shop.mogujie.com/", "http://act.mogujie.com/", "http://list.mogujie.com/"), deny = ("http://shop.mogujie.com/detail/",)), follow = True), # follow = True !!
+        Rule(LinkExtractor( allow = ("http://shop.mogujie.com/",), deny = ("http://shop.mogujie.com/detail/",)), follow = True), # follow = True !!
         Rule(LinkExtractor( allow = ("http://shop.mogujie.com/detail/",)), callback = 'parse_item'),
     )
 
@@ -32,17 +31,16 @@ class FirstSpider (CrawlSpider):
             })
 
     def parse_item(self, response):
-        #print '========================='
+        print '========================='
         page = Selector(response)
-        title = page.xpath('//span[@itemprop="name"]/text()').extract_first()
-        images = page.xpath('//img[@id="J_BigImg"]/@src').extract_first()
         availability = page.xpath('//dd[@class="num clearfix"]/div[@class="J_GoodsStock goods-stock fl"]/text()').extract_first()
+        print '*************************', availability
+        quantity = re.findall('\d+', availability)
         status = response.status
 
-        item = FashionItem()
+        item = QuantityItem()
         item['url'] = response.url
-        item['title'] = title.encode('utf-8')
-        item['images'] = images
-        item['availability'] = availability.encode('utf-8')
+        item['quantity'] = quantity[0]
         item['status'] = status
+
         return item
