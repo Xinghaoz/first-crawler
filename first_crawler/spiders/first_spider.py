@@ -58,7 +58,7 @@ class FirstSpider (CrawlSpider):
         status = response.status
 
         item = FashionItem()
-        item['url'] = response.url
+        item['url'] = url_trim
         item['title'] = title.encode('utf-8')
         item['images'] = images
         item['availability'] = availability.encode('utf-8')
