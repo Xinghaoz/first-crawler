@@ -25,10 +25,9 @@ class FirstSpider (CrawlSpider):
         Rule(LinkExtractor( allow = ("http://shop.mogujie.com/detail/",)), callback = 'parse_item'),
     )
 
-    def __init__(self, *args, **kwargs):
-        super(FirstSpider, self).__init__(*args, **kwargs)
-        self.client = MongoClient()
-        self.db = client.fashion
+    client = MongoClient()
+    db = client.fashion
+
 
     def start_requests(self):
         for url in self.start_urls:
