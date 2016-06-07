@@ -38,3 +38,7 @@ If it shows:
 
 Then in settings.py:
 - `SPLASH_URL = 'http://192.168.99.100:8050/'`
+
+## Install dependencies
+Install MongoDB API of python:
+- `python -m pip install pymongo`

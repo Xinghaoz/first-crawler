@@ -14,8 +14,9 @@ class FirstCrawlerPipeline(object):
 
     def process_item(self, item, spider):
         # Show Chinese, for checking the correctness
-        if (spider.name == 'first_spider'):
-            print '+++++++++++++++++++++++++'
+        print spider.name
+        if (spider.name == 'first_crawler_mac' or spider.name == 'first_crawler'):
+            #print '+++++++++++++++++++++++++'
             line = json.dumps(dict(item)) + "\n"
             self.file_json.write(line)
 
@@ -23,7 +24,7 @@ class FirstCrawlerPipeline(object):
             #self.file.write(val)
 
         if (spider.name == 'quantity_checker'):
-            print '-------------------------'
+            #print '-------------------------'
             line = json.dumps(dict(item)) + "\n"
             self.file_quantity.write(line)
 
