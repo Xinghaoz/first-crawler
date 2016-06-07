@@ -14,7 +14,6 @@ class FirstCrawlerPipeline(object):
 
     def process_item(self, item, spider):
         # Show Chinese, for checking the correctness
-        print spider.name
         if (spider.name == 'first_crawler_mac' or spider.name == 'first_crawler'):
             #print '+++++++++++++++++++++++++'
             line = json.dumps(dict(item)) + "\n"

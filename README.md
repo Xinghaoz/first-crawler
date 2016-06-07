@@ -16,7 +16,7 @@ My first crawler for crawling the fashion items in "http://www.mogujie.com/" and
 - [ ] For new product, it can be updated every 6 hours.
 - [x] For existing products, we need to update the availability very often (how can you optimize/reduce the delay between a product is out of stock and when our system is aware of that).
 - [x] It is understandable that websites change all the time, we need to be notified when crawler failed on some site or some pages, so engineers can investigate and fix the issues.
-- [ ] If for some reason the crawler restarted, it can recover from where it left off and continue to crawl products / update products.
+- [x] If for some reason the crawler restarted, it can recover from where it left off and continue to crawl products / update products.
 
 ## USAGE
 For running the crawler:
