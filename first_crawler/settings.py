@@ -14,7 +14,7 @@ BOT_NAME = 'first_crawler'
 SPIDER_MODULES = ['first_crawler.spiders']
 NEWSPIDER_MODULE = 'first_crawler.spiders'
 
-DEPTH_LIMIT = 2 # Allow only 2 page deep
+DEPTH_LIMIT = 100 # Allow only 100 page deep
 ITEM_PIPELINES = {
     'first_crawler.pipelines.FirstCrawlerPipeline': 300,
 }
