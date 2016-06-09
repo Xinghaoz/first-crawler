@@ -4,19 +4,18 @@ from scrapy.selector import Selector
 from first_crawler.items import FashionItem
 from scrapy.linkextractors import LinkExtractor
 from scrapy.http import Request
-import pymongo
-from pymongo import MongoClient
 import time
+import re
+#from scrapy_splash import SplashRequest
 
-from scrapy.contrib.loader import ItemLoader
 
-
-class FirstSpider (CrawlSpider):
-    name = 'first_crawler'
+class MogujieSpider (CrawlSpider):
+    name = 'mogujie_mac'
     allowed_domains = ['mogujie.com']
-    start_urls = ["http://www.mogujie.com/"]
+    #start_urls = ["http://www.mogujie.com/"]
 
     # Test Links
+    start_urls = ["http://www.mogujie.com/book/clothing/50249?from=hpc_6&ptp=1.BtWxRgdy.0.39.TY4Kc"]
     #start_urls = ["http://shop.mogujie.com/1qfnyw/list/index?categoryId=20005650&order=sale&shopwebtag=1&mt=10.6464.r78321&ptp=1.BtWxRgdy._mt-6464-r78321.1.FvR1m"]
     #start_urls = ["http://www.mogujie.com/book/clothing/50003?from=hpc_2"]
 
@@ -25,31 +24,34 @@ class FirstSpider (CrawlSpider):
         Rule(LinkExtractor( allow = ("http://shop.mogujie.com/detail/",)), callback = 'parse_item', follow = True),
     )
 
-    client = MongoClient()
-    db = client.fashion
-
-
     def start_requests(self):
         for url in self.start_urls:
             yield scrapy.Request(url, self.parse, meta={
                 'splash': {
+                    'args': {
+                        # set rendering arguments here
+                        'html': 1,
+                        'png': 1,
+
+                        # 'url' is prefilled from request url
+                        # 'http_method' is set to 'POST' for POST requests
+                        # 'body' is set to request body for POST requests
+                    },
                     'endpoint': 'render.html'
                 }
             })
 
+    def process_links(self, links):
+        for link in links:
+            link.url = "http://192.168.99.100:8050/?" + urlencode({ 'url' : link.url })
+        return links
+
     def parse_item(self, response):
-        mongo = self.db.url
+        pattern = re.compile('/detail/')
+        if pattern.findall(response.url):
+            print '==========================', response.url
+
         url_trim = response.url.split('?')[0]
-        if mongo.find_one({"url": url_trim}):
-	    print "&&&&&&&&&&&&&&&&&&&&&&&&& This URL has been crawled &&&&&&&&&&&&&&&&&&&&&&&&&"
-	    return
-        
-        # Insert the new link into MongoDB
-        newone = {
-            "url": url_trim,
-            "time": time.time(),
-        }
-        mongo.insert_one(newone)
 
         page = Selector(response)
         title = page.xpath('//span[@itemprop="name"]/text()').extract_first()

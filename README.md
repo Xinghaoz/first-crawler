@@ -5,6 +5,7 @@ My first crawler for crawling the fashion items in "http://www.mogujie.com/" and
 + Language: Python
 + Using Scrapy + Splash
 + Docker
++ MongoDB
 
 ## TODO
 - [x] URL
