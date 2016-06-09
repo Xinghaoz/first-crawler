@@ -10,8 +10,8 @@ import time
 
 
 class MogujieSpider (CrawlSpider):
-    name = 'mogujie'
-    allowed_domains = ['mogujie_old.com']
+    name = 'mogujie_old'
+    allowed_domains = ['mogujie.com']
     #start_urls = ["http://www.mogujie.com/"]
 
     # Test Links
