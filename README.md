@@ -26,6 +26,9 @@ For running the crawler:
 For running the quantity checker:
 - `scrapy crawl quantity_checker`
 
+Connect your shell to the default machine.
+- `eval "$(docker-machine env default)"`
+
 Before running the crawler we need to set up Splash in Docker:
 - `docker run -p 8050:8050 scrapinghub/splash`
 
@@ -43,3 +46,6 @@ Then in settings.py:
 ## Install dependencies
 Install MongoDB API of python:
 - `python -m pip install pymongo`
+
+Setting MongoDB path in Mac:
+- 'mongod --dbpath ~/Developer/MongoDB/data/db'

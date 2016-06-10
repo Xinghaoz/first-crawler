@@ -25,7 +25,7 @@ class TestSpider (BaseSpider):
 
     # For MongoDB
     client = MongoClient()
-    db = client.fashion
+    db = client.mogujie
 
     # For getting the Javascript Content
     def start_requests(self):
@@ -84,13 +84,15 @@ class TestSpider (BaseSpider):
         pattern_detail = re.compile(r'http://shop.mogujie.com/detail/.{7}')
         #print '==========================', len(pattern_detail.findall(response.body))
         for item_url in pattern_detail.findall(response.body):
-            req = SplashRequest(url = item_url, callback = self.parse_item)
+            req = Request(url = item_url, callback = self.parse_item)
             yield req
 
 
     def parse_item(self, response):
         mongo = self.db.url
-        url_trim = response.url.split('?')[0]
+        # url = response.meta['splash']['args']['url'] # Used for SplashRequest
+        url = response.url
+        url_trim = url.split('?')[0]
         if mongo.find_one({"url": url_trim}):
     	    print "&&&&&&&&&&&&&&&&&&&&&&&&& This URL has been crawled &&&&&&&&&&&&&&&&&&&&&&&&&"
     	    return
