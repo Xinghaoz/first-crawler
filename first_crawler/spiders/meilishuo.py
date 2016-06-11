@@ -37,26 +37,18 @@ class MeilishuoSpider (BaseSpider):
     '''
 
     def parse(self, response):
-        # print '=========================', response.body
-        #http://www.meilishuo.com/guang/catalog/
         pattern_list = re.compile(r'/guang/catalog/hot\S*')
-        #print '+++++++++++++++++++++++++22', pattern_list.findall(response.body)
-        #urls = re.findall(r'<a.*?href=.*?<\/a>', response.body)
-        #print '+++++++++++++++++++++++++11', urls
 
         i = 0
         for item_list in pattern_list.findall(response.body):
             i += 1
-            #req = SplashRequest(url = 'http://www.mogujie.com/book/clothing/50249/', callback = self.parse_list)
             url_complete = r'http://www.meilishuo.com' + item_list
             url_complete = url_complete.split("\"")[0]
-            print '+++++++++++++++++++++++++11', i, url_complete
+            print '+++++++++++++++++++++++++', i, url_complete
             req = Request(url = url_complete, callback = self.parse_list)
             yield req
 
     def parse_list(self, response):
-        #print '+++++++++++++++++++++++++443', response.url
-        #url = response.meta['splash']['args']['url']
         mongo = self.db.url
         url = response.url
         print '&&&&&&&&&&&&&&&&&&&&&&&&&', response.status, url
@@ -82,7 +74,6 @@ class MeilishuoSpider (BaseSpider):
             url_complete = r'http://www.meilishuo.com' + item_url
             url_complete = url_complete.split("\"")[0]
             url_trim = url_complete.split('?')[0]
-            print '+++++++++++++++++++++++++11', i, url_trim
 
             if mongo.find_one({"url": url_trim}):
                 print "&&&&&&&&&&&&&&&&&&&&&&&&& This URL has been crawled &&&&&&&&&&&&&&&&&&&&&&&&&"
@@ -101,8 +92,6 @@ class MeilishuoSpider (BaseSpider):
         images = page.xpath('//img[@id="J_BigImg"]/@src').extract_first()
         availability = page.xpath('//dd[@class="num clearfix"]/div[@class="J_GoodsStock goods-stock fl"]/text()').extract_first()
         status = response.status
-
-        print "=========================", title, availability
 
         item = FashionItem()
         url_trim = response.url.split('?')[0]
