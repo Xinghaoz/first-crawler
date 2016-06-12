@@ -38,34 +38,14 @@ class TestSpider (BaseSpider):
 
 
     def parse(self, response):
-        #print '=========================', response.url
         pattern_list = re.compile(r'http://www.mogujie.com/book/\w+/\d+')
-        #print '+++++++++++++++++++++++++', pattern_list.findall(response.body)
-
-        '''
-        for item_list in pattern_list.findall(response.body):
-            req = Request(url = item_list, callback = self.parse_list)
-            yield req
-        '''
-
-        '''
-        req = Request(url = 'http://www.mogujie.com/book/clothing/50249/', callback = self.parse_list, meta={
-                'splash': {
-                    'endpoint': 'render.html'
-                },
-                #'dont_send_headers': True,
-        })
-        '''
 
         for item_list in pattern_list.findall(response.body):
-            #req = SplashRequest(url = 'http://www.mogujie.com/book/clothing/50249/', callback = self.parse_list)
             req = SplashRequest(url = item_list, callback = self.parse_list)
             yield req
 
     def parse_list(self, response):
-        #print '+++++++++++++++++++++++++443', response.url
         url = response.meta['splash']['args']['url']
-        print '&&&&&&&&&&&&&&&&&&&&&&&&&', response.status, url
         pattern = re.compile(r'http://www.mogujie.com/book/\w+/\d+/')
 
         if (pattern.match(url)):
@@ -76,13 +56,11 @@ class TestSpider (BaseSpider):
         else:
             url = url + '/2'
 
-        print '+++++++++++++++++++++++++', url
+        print '+++++++++++++++++++++++++ Next url:', url
         req = SplashRequest(url = url, callback = self.parse_list)
         yield req
 
-        #print '+++++++++++++++++++++++++', response.url
         pattern_detail = re.compile(r'http://shop.mogujie.com/detail/.{7}')
-        #print '==========================', len(pattern_detail.findall(response.body))
         for item_url in pattern_detail.findall(response.body):
             req = Request(url = item_url, callback = self.parse_item)
             yield req

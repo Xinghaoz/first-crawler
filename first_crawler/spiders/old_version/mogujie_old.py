@@ -12,10 +12,10 @@ import time
 class MogujieSpider (CrawlSpider):
     name = 'mogujie_old'
     allowed_domains = ['mogujie.com']
-    #start_urls = ["http://www.mogujie.com/"]
+    start_urls = ["http://www.mogujie.com/"]
 
     # Test Links
-    start_urls = ["http://shop.mogujie.com/1qfnyw/list/index?categoryId=20005650&order=sale&shopwebtag=1&mt=10.6464.r78321&ptp=1.BtWxRgdy._mt-6464-r78321.1.FvR1m"]
+    #start_urls = ["http://shop.mogujie.com/1qfnyw/list/index?categoryId=20005650&order=sale&shopwebtag=1&mt=10.6464.r78321&ptp=1.BtWxRgdy._mt-6464-r78321.1.FvR1m"]
     #start_urls = ["http://www.mogujie.com/book/clothing/50003?from=hpc_2"]
 
     rules = (
