@@ -25,6 +25,7 @@ class MeilishuoSpider (BaseSpider):
     client = MongoClient()
     db = client.meilishuo
 
+    # No need to execute Javascript in the main page.
     '''
     # For getting the Javascript Content
     def start_requests(self):
@@ -36,6 +37,7 @@ class MeilishuoSpider (BaseSpider):
             })
     '''
 
+    # Parse and find the categories links in the main page.
     def parse(self, response):
         pattern_list = re.compile(r'/guang/catalog/hot\S*')
 
@@ -48,6 +50,7 @@ class MeilishuoSpider (BaseSpider):
             req = Request(url = url_complete, callback = self.parse_list)
             yield req
 
+    # Parse and find the item links in the categories links.
     def parse_list(self, response):
         mongo = self.db.url
         url = response.url
@@ -75,6 +78,7 @@ class MeilishuoSpider (BaseSpider):
             url_complete = url_complete.split("\"")[0]
             url_trim = url_complete.split('?')[0]
 
+            # Use MongoDB to check the duplicate.
             if mongo.find_one({"url": url_trim}):
                 print "&&&&&&&&&&&&&&&&&&&&&&&&& This URL has been crawled &&&&&&&&&&&&&&&&&&&&&&&&&"
             else:
@@ -86,6 +90,7 @@ class MeilishuoSpider (BaseSpider):
                 mongo.insert_one(newone)
                 yield req
 
+    # Parse the item links, get the expected information.
     def parse_item(self, response):
         page = Selector(response)
         title = page.xpath('//span[@itemprop="name"]/text()').extract_first()
